@@ -68,7 +68,8 @@ const performDCA = async (req:Request, res:Response, next:NextFunction) =>{
                 res.status(201).json(result);
             }
             catch(error){
-                next(error);
+                console.log(error)
+                return error;
             }    
         }, intervalInSeconds * 1000);           
     } 
