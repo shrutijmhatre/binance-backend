@@ -14,7 +14,7 @@ export const createMarketLimitTradeSchema = z.object({
     tokenOut: z.string({message: "tokenOut is required"}),
     side: z.string({message: "side is required"}),
     amountIn: z.number({message: "amountIn is required"}),
-    linitPrice: z.number({message: "limitPrice is required"}),
+    limitPrice: z.number({message: "limitPrice is required"}),
 });
 
 export const createDCASchema = z.object({

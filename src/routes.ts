@@ -87,7 +87,7 @@ routes.get("/balance/:id", getBalanceForTokens);
  *                tokenIn: "USDT"
  *                tokenOut: "ETH"
  *                side: "BUY"
- *                amountIn: "1"
+ *                amountIn: 1
  *     responses:
  *       201:
  *         description: Successful response
@@ -132,8 +132,8 @@ routes.post("/spotTrade", validate(createMarketSpotTradeSchema), performMarketSp
  *                tokenIn: "USDT"
  *                tokenOut: "ETH"
  *                side: "BUY"
- *                amountIn: "1"
- *                limitPrice: "2000"
+ *                amountIn: 1
+ *                limitPrice: 2000
  *     responses:
  *       201:
  *         description: Successful response
@@ -178,8 +178,8 @@ routes.post("/limitTrade", validate(createMarketLimitTradeSchema), performMarket
  *                tokenIn: "USDT"
  *                tokenOut: "ETH"
  *                side: "BUY"
- *                amountIn: "1"
- *                intervalInSeconds: "10"
+ *                amountIn: 1
+ *                intervalInSeconds: 10
  *     responses:
  *       201:
  *         description: Successful response
