@@ -1,7 +1,7 @@
 import { Side } from "@binance/connector-typescript";
 
 export interface accountPrivateKeys {
-    uid: number;
+    uid: string;
     key: string;
     secret: string;
 }

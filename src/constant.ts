@@ -3,27 +3,27 @@ import { accountPrivateKeys } from "./types"
 
 export const privateKeys : accountPrivateKeys[] = [
 { 
-    uid: 1,
+    uid: "1",
     key: "API-KEY",
     secret: "API-SECRET",
 },
 { 
-    uid: 2,
+    uid: "1",
     key: "API-KEY",
     secret: "API-SECRET",
 },
 { 
-    uid: 3,
+    uid:"1",
     key: "API-KEY",
     secret: "API-SECRET",
 },
 { 
-    uid: 4,
+    uid: "1",
     key: "API-KEY",
     secret: "API-SECRET",
 },
 { 
-    uid: 5,
+    uid: "1",
     key: "API-KEY",
     secret: "API-SECRET",
 },

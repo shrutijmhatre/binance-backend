@@ -5,7 +5,7 @@ import { Spot, OrderType, RestTradeTypes, Side, TimeInForce, RestMarketTypes } f
 const BASE_URL = process.env.BINANCE_BASE_URL;
 
 const getPrivatekeysFromAccounts = (uid:string) => {
-        const accountInformation = privateKeys.find(acc => acc.uid === parseInt(uid));
+        const accountInformation = privateKeys.find(acc => acc.uid === uid);
         return accountInformation;
 }
 
